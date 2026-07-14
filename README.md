@@ -1,7 +1,7 @@
 # Interior Design Business Website
 
 A modern, responsive React + Vite website for an interior design business with lead capture and WhatsApp integration.
-test
+
 ## Features
 
 ✨ **Modern & Responsive Design**
