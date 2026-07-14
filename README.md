@@ -140,7 +140,7 @@ Add your own YouTube videos:
 3. Push to GitHub and enable Pages in repo settings
 
 ### Custom Domain
-hello
+
 1. Purchase a domain from GoDaddy, Namecheap, or similar
 2. Point the domain's DNS records to your hosting provider
 3. For Vercel: Add domain in project settings
