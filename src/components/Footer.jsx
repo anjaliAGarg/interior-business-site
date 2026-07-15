@@ -1,21 +1,26 @@
+import siteContent from '../content/siteContent.json'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  const { brand, footer } = siteContent
 
   return (
     <footer>
       <div className="container">
-        <p>&copy; {currentYear} JMD Interiorr. All rights reserved.</p>
+        <p>&copy; {currentYear} {brand.name}. All rights reserved.</p>
         <p>
-          <a href="#home">Home</a> | 
-          <a href="#projects"> Projects</a> | 
-          <a href="#contact"> Contact</a> | 
-          <a href="#"> Privacy Policy</a>
+          {footer.links.map((link, index) => (
+            <span key={link.href}>
+              {index > 0 ? ' | ' : ''}
+              <a href={link.href}>{link.label}</a>
+            </span>
+          ))}
         </p>
-        <p>📱 Follow us on social media</p>
+        <p>{footer.socialTitle}</p>
         <p style={{ fontSize: '1.5rem' }}>
-          <a href="#" style={{ marginRight: '15px' }}>f</a>
-          <a href="#" style={{ marginRight: '15px' }}>📷</a>
-          <a href="#">🐦</a>
+          {footer.socialLinks.map(link => (
+            <a key={link.label} href={link.href} style={{ marginRight: '15px' }}>{link.icon}</a>
+          ))}
         </p>
       </div>
     </footer>

@@ -1,0 +1,144 @@
+{
+  "brand": {
+    "name": "JMD Interiorr",
+    "tagline": "Premium interior design solutions for your home and office"
+  },
+  "header": {
+    "navItems": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Testimonials", "href": "#testimonials" },
+      { "label": "Videos", "href": "#videos" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Get in Touch"
+  },
+  "hero": {
+    "title": "Transform Your Space",
+    "subtitle": "Premium interior design solutions for your home and office",
+    "buttonLabel": "Start Your Project"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Residential Design",
+        "description": "Create beautiful and functional spaces for your home"
+      },
+      {
+        "title": "Commercial Spaces",
+        "description": "Professional interior solutions for offices and retail"
+      },
+      {
+        "title": "Furniture & Decor",
+        "description": "Curated furniture and decor selections for your style"
+      },
+      {
+        "title": "Space Planning",
+        "description": "Optimize your space layout for maximum functionality"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Our Projects",
+    "items": [
+      {
+        "title": "Modern Living Room",
+        "image": "https://via.placeholder.com/400x300?text=Living+Room+Design",
+        "description": "Elegant modern design with warm tones"
+      },
+      {
+        "title": "Minimalist Kitchen",
+        "image": "https://via.placeholder.com/400x300?text=Kitchen+Design",
+        "description": "Sleek and functional kitchen space"
+      },
+      {
+        "title": "Luxury Bedroom",
+        "image": "https://via.placeholder.com/400x300?text=Bedroom+Design",
+        "description": "Serene bedroom with premium finishes"
+      },
+      {
+        "title": "Office Space",
+        "image": "https://via.placeholder.com/400x300?text=Office+Design",
+        "description": "Professional office environment"
+      },
+      {
+        "title": "Contemporary Bathroom",
+        "image": "https://via.placeholder.com/400x300?text=Bathroom+Design",
+        "description": "Modern bathroom with spa-like feel"
+      },
+      {
+        "title": "Retail Store",
+        "image": "https://via.placeholder.com/400x300?text=Retail+Design",
+        "description": "Inviting retail space design"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "items": [
+      {
+        "text": "Amazing transformation! The team understood my vision perfectly and delivered beyond expectations.",
+        "author": "Priya Sharma",
+        "rating": 5
+      },
+      {
+        "text": "Professional, timely, and affordable. Highly recommend for anyone looking to redesign their space.",
+        "author": "Raj Kumar",
+        "rating": 5
+      },
+      {
+        "text": "They made my office look incredible. Great attention to detail and excellent customer service.",
+        "author": "Neha Patel",
+        "rating": 5
+      },
+      {
+        "text": "Best interior design company in the city. Worth every penny for the quality and creativity.",
+        "author": "Amit Singh",
+        "rating": 5
+      }
+    ]
+  },
+  "videos": {
+    "title": "Project Videos",
+    "items": [
+      {
+        "title": "Modern Apartment Tour",
+        "url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      },
+      {
+        "title": "Kitchen Renovation Process",
+        "url": "https://www.youtube.com/embed/jNQXAC9IVRw"
+      },
+      {
+        "title": "Office Space Design",
+        "url": "https://www.youtube.com/embed/9bZkp7q19f0"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Ready to transform your space? Contact JMD Interiorr today to discuss your project and get a free consultation.",
+    "buttonLabel": "Fill Contact Form",
+    "details": [
+      { "label": "📞 Phone", "value": "+91 9821859634" },
+      { "label": "📧 Email", "value": "jmconstructions@gmail.com" },
+      { "label": "📍 Address", "value": "D53-3F Basement SG City 81 Gurgaon" }
+    ]
+  },
+  "footer": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" },
+      { "label": "Privacy Policy", "href": "#" }
+    ],
+    "socialTitle": "📱 Follow us on social media",
+    "socialLinks": [
+      { "label": "Facebook", "href": "#", "icon": "f" },
+      { "label": "Instagram", "href": "#", "icon": "📷" },
+      { "label": "Twitter", "href": "#", "icon": "🐦" }
+    ]
+  }
+}

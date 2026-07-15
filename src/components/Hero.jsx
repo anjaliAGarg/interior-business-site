@@ -1,10 +1,14 @@
+import siteContent from '../content/siteContent.json'
+
 export default function Hero({ onContactClick }) {
+  const { hero, brand } = siteContent
+
   return (
     <section className="hero" id="home">
       <div className="container">
-        <h1>Transform Your Space</h1>
-        <p>Premium interior design solutions for your home and office</p>
-        <button onClick={onContactClick} className="cta-button">Start Your Project</button>
+        <h1>{hero.title}</h1>
+        <p>{hero.subtitle || brand.tagline}</p>
+        <button onClick={onContactClick} className="cta-button">{hero.buttonLabel}</button>
       </div>
     </section>
   )

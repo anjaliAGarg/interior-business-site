@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120" role="img" aria-label="JMD Interior logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b8862d"/>
+      <stop offset="100%" stop-color="#f3d07a"/>
+    </linearGradient>
+    <style>
+      .jmd { font-family: Georgia, 'Times New Roman', serif; font-size: 64px; font-weight: 700; fill: url(#g1); }
+      .interior { font-family: Arial, Helvetica, sans-serif; font-size: 16px; letter-spacing: 6px; fill: #222; }
+    </style>
+  </defs>
+
+  <!-- transparent background for flexible placement -->
+  <rect width="100%" height="100%" fill="none" />
+
+  <!-- Roof / house mark -->
+  <g transform="translate(24,8)">
+    <path d="M16 72 L104 8 L192 72" fill="none" stroke="url(#g1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(104,40)">
+      <rect x="-8" y="-8" width="12" height="12" rx="1" fill="url(#g1)"/>
+      <rect x="8" y="-8" width="12" height="12" rx="1" fill="url(#g1)" opacity="0.95"/>
+      <rect x="-8" y="8" width="12" height="12" rx="1" fill="url(#g1)" opacity="0.9"/>
+      <rect x="8" y="8" width="12" height="12" rx="1" fill="url(#g1)" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(8,64)">
+    <text x="120" y="48" class="jmd" text-anchor="middle">JMD</text>
+    <text x="120" y="86" class="interior" text-anchor="middle">INTERIOR</text>
+  </g>
+
+</svg>
